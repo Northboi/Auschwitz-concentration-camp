@@ -1,0 +1,48 @@
+---
+title: "Auschwitz concentration camp"
+author: 
+  - Shiji Zhang
+thanks: "Code and data are available at: https://github.com/Northboi/Auschwitz-concentration-camp, the interactive graphs and tables are available at: "
+date: today
+date-format: long
+format: pdf
+number-sections: true
+toc: TRUE
+bibliography: reference.bib
+---
+
+\newpage
+
+# Introduction
+
+The Auschwitz concentration camp is regarded as one of the darkest chapters in history. It was one of the largest extermination camps established by Nazi Germany during the Second World War, with the majority of its victims being Jewish. The Nazi regime's atrocities were inhumane and continue to be condemned and reviled by people worldwide. In this essay, I will utilize data on the individuals who perished in Auschwitz between 1942 and 1943, transforming it into interactive charts and tables to visualize the data. The interactive charts will be based on bar graphs, while the interactive tables will arrange words in descending order of their initial letters. Furthermore, I will conduct a detailed analysis of three variables in the dataset: Birthplace, Residence, and Religion, to expose the Nazi regime's intentions in this massacre. Ultimately, I hope my essay can emphasize the importance of history. It's not just a retrospective of the past but also a reflection on the future. We must remain vigilant against the repetition of history, cherish peace, and aspire for a world without war.
+
+# Data
+
+The dataset used in this study is from Sterbebücher, 46 volumes of deaths of prisoners [@cite1] who were registered in the camp. It covers the period from July 29, 1941, to December 31, 1943, and includes individuals who were executed by the Nazis in the Auschwitz concentration camp. The dataset, known as the death list, includes the surnames, first names, birth dates, death dates, birthplaces, residences, and religions of the deceased, totaling 65,280 observations. 
+
+- Last.Name: The last name of the prisoners in Auschwitz concentration camp.
+- First.Names.s.: The first name of the prisoners in Auschwitz concentration camp.
+- Date.of.Birth: The date of birth for prisoners in Auschwitz concentration camp, and in the YYYY-MM-DD form
+- Date.of.Death: The date of death for prisoners in Auschwitz concentration camp, and in the YYYY-MM-DD form
+- Birthplace: The birthplaces of the prisoners
+- Residence: The place that prisoners lives in.
+- Religon: The religions of the prisoners.
+
+# Birthplace & Residence
+
+Based on the data from the interactive chart and table, we can see that among the prisoners' birthplaces, those starting with "S" have the highest number of deaths, with 6505 individuals out of a total of 65280 prisoners. By examining the names of these birthplaces, we can observe that some prisoners were born in cities in Germany, such as Berlin, while others were from Poland, such as Szyszki, and there were also prisoners from cities in the Netherlands, such as Amsterdam.[@cite2] This confirms the Nazi's racism at the time. They aimed not only to exterminate the Jewish population, primarily in Germany but also to eradicate Jews across Europe. This is both saddening and enraging.
+
+Furthermore, by selecting all available initials in the interactive table, we found that high count numbers are not exclusive to birthplaces starting with "S". Instead, there are many other cities represented, such as those starting with "B", "K", "F", and "W". This indicates that the Nazis, during those two years, comprehensively targeted areas where Jewish people, considered by them as a subordinate race, primarily resided. And according to the varying count numbers across different bar charts in both birthplace and residence options suggest that the Nazis conducted arrests not only in major cities but also in other areas where Jewish populations might have been present. The inhumane actions of the Nazis are starkly evident in this visualization, evoking feelings of sadness and indignation.
+
+# Religion
+
+When we select all available options for religion in the interactive chart and table regarding the prisoners' religious beliefs in the Auschwitz concentration camp, we can observe that Catholicism and Judaism are the two most prevalent religions among the prisoners. The majority of prisoners are Catholic, followed closely by Jewish prisoners. However, the difference in numbers between the two religions is not substantial. There are 30,036 prisoners who adhere to Catholicism and 28,511 prisoners who adhere to Judaism. Out of the total 65,280 prisoners, the percentage of prisoners who adhere to Catholicism is 30,036 ÷ 65,280 × 100% = 46%, while the percentage of prisoners who adhere to Judaism is 28,511 ÷ 65,280 × 100% = 44%. By calculating the proportions of these two religions among the prisoners, we can see that they collectively account for 90% of the total. This indicates that the majority of the victims of Nazi atrocities during that time were Catholics and Jews.
+
+# Conclusion
+
+After conducting the data analysis of the deceased prisoners in the Auschwitz concentration camp using interactive charts and tables, we can observe from the birthplace and residence data that between 1942 and 1943, the Nazis had extensively targeted and arrested the Jewish population. This occurred not only in Germany but also in the Netherlands, Poland, and across Nazi-controlled territories in Europe. Additionally, the Nazis did not overlook areas where there might have been a minority Jewish population, as reflected in the smaller count numbers in the interactive charts. Among the deceased prisoners in Auschwitz, Catholics and Jews each accounted for 46% and 44%, respectively, totaling 90% of all prisoners. What is most heartbreaking and difficult to accept from this report is that every number represented in the charts and tables signifies a life lost due to the inhumane actions of the Nazis. Through the data and visual analysis provided in this study, we aim to deepen people's understanding of the Auschwitz massacre and ensure that history is never forgotten. We hope that everyone will cherish world peace and strive for it endlessly. This tragic history serves as a reminder to humanity to prevent such tragedies from happening again.
+
+\newpage
+
+# Reference
