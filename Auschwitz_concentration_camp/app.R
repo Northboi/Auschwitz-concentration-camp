@@ -10,7 +10,6 @@ library(dplyr)
 
 data <- read.csv("../Auschwitz_Death_Certificates.csv", stringsAsFactors = FALSE)
 
-
 data$Birthplace_First_Letter <- substr(data$Birthplace, 1, 1)
 data$Residence_First_Letter <- substr(data$Residence, 1, 1)
 
