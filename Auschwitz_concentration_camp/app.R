@@ -1,4 +1,11 @@
+if(!require(shiny)){install.packages('shiny', dependencies = TRUE)}
+if(!require(DT)){install.packages('DT', dependencies = TRUE)}
+if(!require(ggplot2)){install.packages('ggplot2', dependencies = TRUE)}
+if(!require(dplyr)){install.packages('dplyr', dependencies = TRUE)}
 library(shiny)
+library(DT)
+library(ggplot2)
+library(dplyr)
 
 
 data <- read.csv("../Auschwitz_Death_Certificates.csv", stringsAsFactors = FALSE)
